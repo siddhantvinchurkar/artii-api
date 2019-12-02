@@ -25,9 +25,9 @@ end
 
 class ArtiiAPI < Goliath::API
   # Make ASCII art
-  get '/make', MakeAsciiArt
+  gets '/make', MakeAsciiArt
   # List of available fonts
-  get '/fonts_list', FontsList
+  gets '/fonts_list', FontsList
 
   # Render static files from ./public
   use(Rack::Static,
