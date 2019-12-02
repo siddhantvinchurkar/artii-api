@@ -1,6 +1,6 @@
 source :gemcutter
 
-gem 'goliath', '0.9.4'
+gem 'goliath', '~> 1.0', '>= 1.0.6'
 gem 'em-http-request'
 gem 'em-synchrony'
 gem 'artii', '~> 2.1', '>= 2.1.2'
