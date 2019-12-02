@@ -60,6 +60,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  artii
   em-http-request (= 1.0.2)
   em-synchrony (= 1.0.1)
   foreman
