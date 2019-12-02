@@ -10,7 +10,7 @@ GEM
       addressable (>= 2.2.3)
       cookiejar
       em-socksify
-      eventmachine 
+      eventmachine
       http_parser.rb (>= 0.5.3)
     em-socksify (0.2.0)
       eventmachine
@@ -22,7 +22,7 @@ GEM
     goliath (0.9.4)
       async-rack
       em-synchrony (>= 1.0.0)
-      eventmachine 
+      eventmachine
       http_parser.rb
       http_router (~> 0.9.0)
       log4r
