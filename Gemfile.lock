@@ -17,7 +17,7 @@ GEM
       eventmachine
     em-synchrony (1.0.1)
       eventmachine
-    eventmachine
+    eventmachine (1.2.7)
     foreman (0.41.0)
       thor (>= 0.13.6)
     goliath (0.9.4)
