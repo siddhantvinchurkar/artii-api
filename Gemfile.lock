@@ -2,7 +2,8 @@ GEM
   remote: http://rubygems.org/
   specs:
     addressable (2.2.8)
-    async-rack
+    artii (2.0.0)
+    async-rack(0.5.1)
       rack (~> 1.1)
     cookiejar (0.3.0)
     diff-lcs (1.1.3)
