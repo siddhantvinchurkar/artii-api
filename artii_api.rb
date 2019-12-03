@@ -11,10 +11,6 @@ class ArtiiAPI < Goliath::API
     :index => '/index.html')
   use Goliath::Rack::Params
 
-  not_found do
-    run Proc.new { |env| [404, {'Content-Type' => 'text/plain'}, 'Not found'] }
-  end
-
   # You must use either maps or response, but never both!
   def response(env)
     case env[ 'PATH_INFO' ]
