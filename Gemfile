@@ -1,4 +1,6 @@
-source :gemcutter
+source "https://rubygems.org"
+
+ruby "3.0.3"
 
 gem 'goliath', '~> 1.0', '>= 1.0.6'
 gem 'em-http-request'

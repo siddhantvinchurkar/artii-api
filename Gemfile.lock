@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
@@ -71,3 +71,6 @@ DEPENDENCIES
   foreman
   goliath (~> 1.0, >= 1.0.6)
   rspec
+
+RUBY VERSION
+   ruby 3.0.3p157
