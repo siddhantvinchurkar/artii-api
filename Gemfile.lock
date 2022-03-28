@@ -46,7 +46,6 @@ GEM
       rack (~> 1.4)
     rack-respond_to (0.9.8)
       rack-accept-media-types (>= 0.6)
-    rake (13.0.6)
     rspec (3.11.0)
       rspec-core (~> 3.11.0)
       rspec-expectations (~> 3.11.0)
@@ -62,7 +61,7 @@ GEM
     rspec-support (3.11.0)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   artii (~> 2.1, >= 2.1.2)
@@ -71,7 +70,6 @@ DEPENDENCIES
   em-synchrony
   foreman
   goliath (~> 1.0, >= 1.0.6)
-  rake
   rspec
 
 RUBY VERSION
